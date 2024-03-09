@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Library Management system</title>
+    <meta
+      name="viewport"
+      content="width=device-width,
+      initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Admin</h1>
+      <form id="employeeForm">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName" id="empname">Book Name</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter the book name"
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="empId" id="empIdlab">Author Name</label>
+            <input
+              type="text"
+              id="empId"
+              name="username"
+              placeholder="Enter author name"
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="phonenumber" id="phonenumberlab">Criteria</label>
+            <input
+              type="text"
+              id="phonenumber"
+              name="phoneNumber"
+              placeholder="Enter the criteria"
+            />
+          </div>
+          <div class="user-input-box">
+            <label for="dop" id="doplab">Date Of publish</label>
+            <input type="date" id="dop" name="dop" />
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+      <a href="adminbook.html">see all books</a>
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
